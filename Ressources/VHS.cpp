@@ -2,13 +2,15 @@
 #include <iostream>
 
 // ---------- Constructeurs ----------
-VHS::VHS() : Video()
+VHS::VHS() : Video() {
+}
 
 VHS::VHS(int id, const std::string& title, const std::string& author,
-         int duration, const std::string& productionCompany)
-    : Video(id, title, author, duration, productionCompany)
+         const std::string& productionCompany, float duration)
+    : Video(id, title, author, productionCompany, duration) {
+}
 
-// ---------- Méthodes ---------- 
+// ---------- Méthodes ----------
 void VHS::printDetails() const {
     std::cout << "[VHS] Title : " << title
               << " | Author : " << author
@@ -16,3 +18,4 @@ void VHS::printDetails() const {
               << " | Duration : " << duration << " mins"
               << " | Production Company : " << productionCompany
               << std::endl;
+}

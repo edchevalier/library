@@ -5,8 +5,8 @@
 DVD::DVD() : Video(), chapterNumber(0) {}
 
 DVD::DVD(int id, const std::string& title, const std::string& author,
-         int duration, const std::string& productionCompany, int chapterNumber)
-    : Video(id, title, author, duration, productionCompany), chapterNumber(chapterNumber) {}
+         const std::string& productionCompany, float duration, int chapterNumber)
+    : Video(id, title, author, productionCompany, duration), chapterNumber(chapterNumber) {}
 
 // ---------- Setters ----------
 void DVD::setChapterNumber(int chapterNumber) { this->chapterNumber = chapterNumber; }

@@ -10,7 +10,7 @@ class DVD : public Video {
         // Constructeurs
         DVD();
         DVD(int id, const std::string& title, const std::string& author,
-            int duration, const std::string& productionCompany, int chapterNumber);
+            const std::string& productionCompany, float duration, int chapterNumber);
         
         // Setters
         void setChapterNumber(int chapterNumber);
@@ -19,6 +19,4 @@ class DVD : public Video {
 
         // Méthodes
         void printDetails() const override;
-
-        bool isSearched(const std::string& keyword) const override;
 };

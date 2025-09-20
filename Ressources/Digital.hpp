@@ -26,6 +26,4 @@ class Digital : public Resource {
 
         // Methods
         void printDetails() const override;
-
-        bool isSearched(const std::string& keyword) const override;
 };

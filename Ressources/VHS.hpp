@@ -7,10 +7,8 @@ class VHS : public Video {
         // Constructeurs
         VHS();
         VHS(int id, const std::string& title, const std::string& author,
-            int duration, const std::string& productionCompany);
+            const std::string& productionCompany, float duration);
 
         // Méthodes
         void printDetails() const override;
-
-        bool isSearched(const std::string& keyword) const override;
 };

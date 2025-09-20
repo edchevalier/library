@@ -4,7 +4,7 @@
 #include <iostream>
 
 class Video : public Resource {
-    private:
+    protected:
         std::string productionCompany;
         float duration; // en minutes ou heures
 

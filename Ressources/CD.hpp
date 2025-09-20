@@ -1,10 +1,10 @@
+#pragma once
 #include "Resource.hpp"
 #include <iostream>
-#pragma once
 
 class CD : public Resource {
     private:
-        double duration; ; 
+        double duration;
         int tracksNumber;
         std::string productionCompany;
 
@@ -26,6 +26,4 @@ class CD : public Resource {
 
         // Methods
         void printDetails() const override;
-
-        bool isSearched(const std::string& keyword) const override;
 };

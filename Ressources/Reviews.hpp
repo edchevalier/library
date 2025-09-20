@@ -1,6 +1,7 @@
 #pragma once
 #include "Book.hpp"
 #include <iostream>
+#include <vector>
 
 class Reviews : public Book {
     private:
@@ -28,6 +29,4 @@ class Reviews : public Book {
 
         // Methods
         void printDetails() const override;
-
-        bool isSearched(const std::string& keyword) const override;
 };
