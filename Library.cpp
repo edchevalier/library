@@ -40,10 +40,10 @@ User* Library::findUser(int userId) const {
     return (it != users.end()) ? *it : nullptr;
 }
 
-void Library::showAllUsers() const {
-    std::cout << "=== Utilisateurs de la bibliothèque ===" << std::endl;
+void Library::showAllUsers() const {    
+    std::cout << "=== Utilisateurs de la bibliothï¿½que ===" << std::endl;
     if (users.empty()) {
-        std::cout << "Aucun utilisateur enregistré." << std::endl;
+        std::cout << "Aucun utilisateur enregistrï¿½." << std::endl;
     } else {
         for (const User* user : users) {
             user->printDetails();
@@ -80,7 +80,7 @@ Resource* Library::findResource(int resourceId) const {
 }
 
 void Library::showAllResources() const {
-    std::cout << "=== Ressources de la bibliothèque ===" << std::endl;
+    std::cout << "=== Ressources de la bibliothï¿½que ===" << std::endl;
     if (resources.empty()) {
         std::cout << "Aucune ressource disponible." << std::endl;
     } else {
@@ -92,7 +92,7 @@ void Library::showAllResources() const {
 }
 
 void Library::showLibraryInfo() const {
-    std::cout << "=== Informations de la bibliothèque ===" << std::endl;
+    std::cout << "=== Informations de la bibliothï¿½que ===" << std::endl;
     std::cout << "Nombre d'utilisateurs: " << users.size() << std::endl;
     std::cout << "Nombre de ressources: " << resources.size() << std::endl;
     std::cout << std::endl;
