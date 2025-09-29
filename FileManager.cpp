@@ -154,13 +154,38 @@ Resource* FileManager::parseResource(const std::string& line) {
                 return new Video(id, title, author, company, duration);
             }
         } else if (type == "CD") {
-            return new CD(id, title, author);
+            std::string durationStr, tracksStr, company;
+            if (std::getline(iss, durationStr, '|') &&
+                std::getline(iss, tracksStr, '|') &&
+                std::getline(iss, company)) {
+                double duration = std::stod(durationStr);
+                int tracks = std::stoi(tracksStr);
+                return new CD(id, title, author, duration, tracks, company);
+            }
         } else if (type == "DVD") {
-            return new DVD(id, title, author);
+            std::string company, durationStr, chaptersStr;
+            if (std::getline(iss, company, '|') &&
+                std::getline(iss, durationStr, '|') &&
+                std::getline(iss, chaptersStr)) {
+                float duration = std::stof(durationStr);
+                int chapters = std::stoi(chaptersStr);
+                return new DVD(id, title, author, company, duration, chapters);
+            }
         } else if (type == "VHS") {
-            return new VHS(id, title, author);
+            std::string company, durationStr;
+            if (std::getline(iss, company, '|') &&
+                std::getline(iss, durationStr)) {
+                float duration = std::stof(durationStr);
+                return new VHS(id, title, author, company, duration);
+            }
         } else if (type == "Digital") {
-            return new Digital(id, title, author);
+            std::string typeStr, sizeStr, path;
+            if (std::getline(iss, typeStr, '|') &&
+                std::getline(iss, sizeStr, '|') &&
+                std::getline(iss, path)) {
+                double size = std::stod(sizeStr);
+                return new Digital(id, title, author, typeStr, size, path);
+            }
         } else if (type == "Reviews") {
             std::string summary, pagesStr, collection, editor, articlesStr;
             if (std::getline(iss, summary, '|') &&
@@ -213,33 +238,40 @@ std::string FileManager::resourceToString(const Resource* resource) {
     const Digital* digital = dynamic_cast<const Digital*>(resource);
     const Reviews* reviews = dynamic_cast<const Reviews*>(resource);
 
-    if (book != nullptr) {
-        result = "Book|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                book->getSummary() + "|" + std::to_string(book->getPagesNumber()) + "|" +
-                book->getCollection();
-    } else if (video != nullptr) {
-        result = "Video|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                video->getProductionCompany() + "|" + std::to_string(video->getDuration());
-    } else if (reviews != nullptr) {
+    if (reviews != nullptr) {
         result = "Reviews|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
                 reviews->getSummary() + "|" + std::to_string(reviews->getPagesNumber()) + "|" +
                 reviews->getCollection() + "|" + reviews->getEditor() + "|" +
                 std::to_string(reviews->getNbArticles());
-    } else if (cd != nullptr) {
-        result = "CD|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor();
+    } else if (book != nullptr) {
+        result = "Book|" + std::to_string(resource->getIdResource()) + "|" +
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                book->getSummary() + "|" + std::to_string(book->getPagesNumber()) + "|" +
+                book->getCollection();
     } else if (dvd != nullptr) {
         result = "DVD|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor();
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                dvd->getProductionCompany() + "|" + std::to_string(dvd->getDuration()) + "|" +
+                std::to_string(dvd->getChapterNumber());
     } else if (vhs != nullptr) {
         result = "VHS|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor();
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                vhs->getProductionCompany() + "|" + std::to_string(vhs->getDuration());
+    } else if (video != nullptr) {
+        result = "Video|" + std::to_string(resource->getIdResource()) + "|" +
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                video->getProductionCompany() + "|" + std::to_string(video->getDuration());
+    } else if (cd != nullptr) {
+        result = "CD|" + std::to_string(resource->getIdResource()) + "|" +
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                std::to_string(cd->getDuration()) + "|" + std::to_string(cd->getTracksNumber()) + "|" +
+                cd->getProductionCompany();
     } else if (digital != nullptr) {
         result = "Digital|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor();
+                resource->getTitle() + "|" + resource->getAuthor() + "|" +
+                digital->getType() + "|" + std::to_string(digital->getSize()) + "|" +
+                digital->getPath();
     } else {
         result = "Resource|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor();

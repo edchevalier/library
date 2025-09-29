@@ -1,0 +1,500 @@
+Book|1|Le Petit Prince|Antoine de Saint-Exupéry|Un conte philosophique sur l'amitié et l'amour|96|Folio
+Book|2|1984|George Orwell|Dystopie totalitaire dans un monde surveillé|376|Gallimard
+Video|3|Inception|Christopher Nolan|Warner Bros|148
+Book|4|L'Étranger|Albert Camus|Roman existentialiste sur l'absurdité de la condition humaine|186|Folio
+CD|5|Abbey Road|The Beatles|42.5|17|Apple Records
+DVD|6|Pulp Fiction|Quentin Tarantino|Miramax Films|154|8
+Book|7|Harry Potter à l'école des sorciers|J.K. Rowling|Premier tome des aventures du jeune sorcier|320|Gallimard Jeunesse
+Video|8|The Matrix|The Wachowskis|Warner Bros|136
+Book|9|Les Misérables|Victor Hugo|Épopée sociale de la France du XIXe siècle|1488|Le Livre de Poche
+Reviews|10|Sciences et Avenir|Collectif|Magazine scientifique mensuel|80|Mondadori|Mondadori|25
+Book|11|Pride and Prejudice|Jane Austen|Roman d'amour dans l'Angleterre du XIXe siècle|432|Penguin Classics
+CD|12|Dark Side of the Moon|Pink Floyd|43.2|10|Harvest Records
+Digital|13|Spotify Premium|Spotify AB|Streaming|500.0|https://spotify.com
+Book|14|Le Rouge et le Noir|Stendhal|Roman de formation dans la France post-révolutionnaire|696|Folio Classique
+VHS|15|Titanic|James Cameron|Paramount Pictures|194
+Book|16|To Kill a Mockingbird|Harper Lee|Dénonciation du racisme dans le Sud américain|376|Arrow Books
+Video|17|Parasite|Bong Joon-ho|CJ Entertainment|132
+Book|18|Madame Bovary|Gustave Flaubert|Critique de la bourgeoisie provinciale française|464|Folio
+CD|19|Thriller|Michael Jackson|42.2|9|Epic Records
+Book|20|The Great Gatsby|F. Scott Fitzgerald|Critique du rêve américain dans les années 20|180|Scribner
+DVD|21|The Godfather|Francis Ford Coppola|Paramount Pictures|175|12
+Book|22|Cent ans de solitude|Gabriel García Márquez|Saga familiale du réalisme magique|432|Seuil
+Digital|23|Netflix|Netflix Inc.|Video Streaming|1000.0|https://netflix.com
+Book|24|Crime et Châtiment|Fiodor Dostoïevski|Étude psychologique d'un crime|704|Folio Classique
+Video|25|Casablanca|Michael Curtiz|Warner Bros|102
+Reviews|26|National Geographic|National Geographic Society|Magazine de géographie et sciences naturelles|120|National Geographic|National Geographic Partners|30
+Book|27|Jane Eyre|Charlotte Brontë|Roman gothique et d'apprentissage|624|Wordsworth Classics
+CD|28|Pet Sounds|The Beach Boys|36.5|13|Capitol Records
+Book|29|Les Fleurs du mal|Charles Baudelaire|Recueil poétique sur la beauté et la décadence|352|Folio Poésie
+VHS|30|Star Wars: A New Hope|George Lucas|20th Century Fox|121
+Book|31|Wuthering Heights|Emily Brontë|Histoire d'amour passionnelle et tragique|416|Penguin Classics
+Digital|32|Amazon Prime Video|Amazon|Video Streaming|800.0|https://primevideo.com
+Book|33|The Catcher in the Rye|J.D. Salinger|Récit d'adolescence et de rébellion|234|Little Brown
+CD|34|Revolver|The Beatles|34.8|14|Parlophone
+Video|35|Citizen Kane|Orson Welles|RKO Pictures|119
+Book|36|Anna Karénine|Léon Tolstoï|Tragédie de l'adultère dans la Russie tsariste|976|Folio Classique
+DVD|37|Schindler's List|Steven Spielberg|Universal Pictures|195|15
+Book|38|Brave New World|Aldous Huxley|Dystopie sur une société ultra-contrôlée|268|Vintage
+Reviews|39|Time Magazine|Time Inc.|Magazine d'actualités hebdomadaire|60|Time|Meredith Corporation|20
+Book|40|Lord of the Flies|William Golding|Allégorie sur la nature humaine|224|Faber & Faber
+CD|41|Sgt. Pepper's Lonely Hearts Club Band|The Beatles|39.5|13|Parlophone
+Book|42|Germinal|Émile Zola|Roman social sur la condition ouvrière|592|Le Livre de Poche
+Digital|43|Disney+|The Walt Disney Company|Video Streaming|600.0|https://disneyplus.com
+Book|44|One Hundred Years of Solitude|Gabriel García Márquez|Chronique familiale du réalisme magique|417|Harper Perennial
+Video|45|Vertigo|Alfred Hitchcock|Paramount Pictures|128
+Book|46|Fahrenheit 451|Ray Bradbury|Dystopie sur la censure et l'ignorance|194|Ballantine Books
+VHS|47|E.T. the Extra-Terrestrial|Steven Spielberg|Universal Pictures|115
+Book|48|Le Père Goriot|Honoré de Balzac|Drame de la paternité et de l'ambition|320|Folio
+CD|49|The Wall|Pink Floyd|81.0|26|Harvest Records
+Book|50|Frankenstein|Mary Shelley|Roman gothique précurseur de la science-fiction|280|Penguin Classics
+DVD|51|Goodfellas|Martin Scorsese|Warner Bros|146|10
+Reviews|52|Le Monde Diplomatique|Le Monde|Magazine géopolitique mensuel|48|Le Monde|Le Monde Diplomatique SA|15
+Book|53|Dracula|Bram Stoker|Roman gothique sur le célèbre vampire|418|Oxford World's Classics
+Digital|54|HBO Max|Warner Media|Video Streaming|750.0|https://hbomax.com
+Book|55|The Lord of the Rings|J.R.R. Tolkien|Épopée fantasy en Terre du Milieu|1216|HarperCollins
+CD|56|OK Computer|Radiohead|53.2|12|Parlophone
+Video|57|8½|Federico Fellini|Cineriz|138
+Book|58|Don Quixote|Miguel de Cervantes|Parodie des romans de chevalerie|1056|Everyman's Library
+Book|59|War and Peace|Leo Tolstoy|Fresque de la Russie napoléonienne|1392|Vintage Classics
+VHS|60|Back to the Future|Robert Zemeckis|Universal Pictures|116
+Book|61|The Divine Comedy|Dante Alighieri|Voyage allégorique dans l'au-delà|798|Penguin Classics
+CD|62|Nevermind|Nirvana|42.6|12|DGC Records
+Digital|63|Apple TV+|Apple Inc.|Video Streaming|400.0|https://tv.apple.com
+Book|64|Moby Dick|Herman Melville|Quête obsessionnelle d'une baleine blanche|720|Norton Critical Edition
+Video|65|Apocalypse Now|Francis Ford Coppola|United Artists|147
+Reviews|66|Scientific American|Springer Nature|Magazine scientifique mensuel|100|Scientific American|Springer Nature|35
+Book|67|The Odyssey|Homer|Épopée du retour d'Ulysse à Ithaque|560|Penguin Classics
+DVD|68|The Shawshank Redemption|Frank Darabont|Castle Rock Entertainment|142|18
+Book|69|Ulysses|James Joyce|Journée dublinoise de Leopold Bloom|933|Vintage
+CD|70|Born to Run|Bruce Springsteen|39.2|8|Columbia Records
+Book|71|Les Contemplations|Victor Hugo|Recueil poétique sur l'amour et la mort|544|Folio Poésie
+Digital|72|Hulu|The Walt Disney Company|Video Streaming|550.0|https://hulu.com
+Book|73|The Canterbury Tales|Geoffrey Chaucer|Recueil de contes médiévaux|504|Penguin Classics
+VHS|74|Raiders of the Lost Ark|Steven Spielberg|Paramount Pictures|115
+Video|75|La Dolce Vita|Federico Fellini|Riama Film|174
+Book|76|A Tale of Two Cities|Charles Dickens|Roman historique sur la Révolution française|489|Penguin Classics
+CD|77|The Velvet Underground & Nico|The Velvet Underground|49.2|11|Verve Records
+Reviews|78|Nature|Springer Nature|Revue scientifique hebdomadaire|150|Nature|Springer Nature|50
+Book|79|Great Expectations|Charles Dickens|Roman d'apprentissage de Pip|544|Wordsworth Classics
+DVD|80|Raging Bull|Martin Scorsese|United Artists|129|14
+Book|81|The Brothers Karamazov|Fyodor Dostoevsky|Roman philosophique sur la foi et le doute|840|Farrar Straus Giroux
+Digital|82|YouTube Premium|Google|Video Streaming|300.0|https://youtube.com
+Book|83|Hamlet|William Shakespeare|Tragédie de la vengeance au Danemark|342|Arden Shakespeare
+CD|84|The Joshua Tree|U2|50.1|11|Island Records
+Video|85|Lawrence of Arabia|David Lean|Horizon Pictures|228
+Book|86|Othello|William Shakespeare|Tragédie de la jalousie et de la manipulation|320|Arden Shakespeare
+VHS|87|Jaws|Steven Spielberg|Universal Pictures|124
+Book|88|King Lear|William Shakespeare|Tragédie du pouvoir et de la famille|368|Arden Shakespeare
+Reviews|89|The Economist|The Economist Group|Hebdomadaire économique et politique|80|The Economist|The Economist Group|25
+CD|90|London Calling|The Clash|65.1|19|CBS Records
+Book|91|Macbeth|William Shakespeare|Tragédie de l'ambition et du pouvoir|256|Arden Shakespeare
+Digital|92|Paramount+|Paramount Global|Video Streaming|450.0|https://paramountplus.com
+Video|93|Singin' in the Rain|Stanley Donen|MGM|103
+Book|94|Romeo and Juliet|William Shakespeare|Tragédie de l'amour impossible|304|Arden Shakespeare
+DVD|95|Taxi Driver|Martin Scorsese|Columbia Pictures|114|12
+Book|96|A Midsummer Night's Dream|William Shakespeare|Comédie féérique et amoureuse|288|Arden Shakespeare
+CD|97|Purple Rain|Prince|43.8|9|Warner Bros Records
+Book|98|The Tempest|William Shakespeare|Dernière pièce du dramaturge sur le pardon|272|Arden Shakespeare
+VHS|99|The Wizard of Oz|Victor Fleming|MGM|102
+Video|100|Some Like It Hot|Billy Wilder|United Artists|121
+Book|101|Les Trois Mousquetaires|Alexandre Dumas|Aventures de D'Artagnan et ses compagnons|704|Le Livre de Poche
+Reviews|102|Wired|Condé Nast|Magazine technologique mensuel|120|Wired|Condé Nast|40
+CD|103|What's Going On|Marvin Gaye|35.6|9|Tamla Records
+Book|104|Le Comte de Monte-Cristo|Alexandre Dumas|Histoire de vengeance et de rédemption|1312|Folio
+Digital|105|Twitch|Amazon|Live Streaming|200.0|https://twitch.tv
+Video|106|North by Northwest|Alfred Hitchcock|MGM|136
+Book|107|Notre-Dame de Paris|Victor Hugo|Drame romantique dans le Paris médiéval|736|Folio
+DVD|108|Sunset Boulevard|Billy Wilder|Paramount Pictures|110|16
+Book|109|L'Assommoir|Émile Zola|Roman naturaliste sur l'alcoolisme populaire|512|Folio
+CD|110|Blonde on Blonde|Bob Dylan|73.2|14|Columbia Records
+Book|111|Nana|Émile Zola|Portrait d'une courtisane sous le Second Empire|512|Folio
+VHS|112|The Sound of Music|Robert Wise|20th Century Fox|174
+Video|113|The Rules of the Game|Jean Renoir|Nouvelle Édition Française|110
+Book|114|Au Bonheur des Dames|Émile Zola|Naissance des grands magasins parisiens|512|Folio
+Reviews|115|Harper's Magazine|Harper's Magazine Foundation|Magazine littéraire et politique mensuel|90|Harper's|Harper's Magazine Foundation|30
+Digital|116|Peacock|NBCUniversal|Video Streaming|350.0|https://peacocktv.com
+Book|117|Bel-Ami|Guy de Maupassant|Ascension sociale d'un arriviste parisien|416|Folio
+CD|118|Pet Sounds|The Beach Boys|36.5|13|Capitol Records
+Video|119|Bicycle Thieves|Vittorio De Sica|Produzioni De Sica|93
+Book|120|Boule de Suif|Guy de Maupassant|Nouvelles sur la guerre franco-prussienne|320|Folio
+DVD|121|Chinatown|Roman Polanski|Paramount Pictures|130|20
+Book|122|Pierre et Jean|Guy de Maupassant|Drame familial bourgeois|160|Folio
+CD|123|Rumours|Fleetwood Mac|38.4|11|Warner Bros Records
+Book|124|Une Vie|Guy de Maupassant|Désillusions d'une femme de la bourgeoisie normande|320|Folio
+Digital|125|Crunchyroll|Sony Pictures|Anime Streaming|250.0|https://crunchyroll.com
+VHS|126|Gone with the Wind|Victor Fleming|MGM|238
+Video|127|Tokyo Story|Yasujirō Ozu|Shochiku|136
+Book|128|Fort comme la Mort|Guy de Maupassant|Tragédie de l'amour et du vieillissement|224|Folio
+Reviews|129|The Atlantic|Emerson Collective|Magazine culturel et politique mensuel|100|The Atlantic|Atlantic Media|35
+CD|130|Highway 61 Revisited|Bob Dylan|51.3|9|Columbia Records
+Book|131|Le Horla|Guy de Maupassant|Nouvelles fantastiques et psychologiques|192|Folio
+DVD|132|The Maltese Falcon|John Huston|Warner Bros|100|15
+Video|133|Breathless|Jean-Luc Godard|Films du Carrosse|90
+Book|134|Contes de la Bécasse|Guy de Maupassant|Recueil de nouvelles rurales normandes|256|Folio
+CD|135|Astral Weeks|Van Morrison|47.1|8|Warner Bros Records
+Digital|136|Funimation|Sony Pictures|Anime Streaming|300.0|https://funimation.com
+Book|137|La Parure|Guy de Maupassant|Nouvelle sur les apparences sociales|32|Folio
+VHS|138|Casablanca|Michael Curtiz|Warner Bros|102
+Video|139|The 400 Blows|François Truffaut|Films du Carrosse|99
+Book|140|Miss Harriet|Guy de Maupassant|Nouvelles sur les mœurs bourgeoises|288|Folio
+Reviews|141|Vanity Fair|Condé Nast|Magazine de culture et société mensuel|200|Vanity Fair|Condé Nast|60
+CD|142|Kind of Blue|Miles Davis|45.9|5|Columbia Records
+DVD|143|Double Indemnity|Billy Wilder|Paramount Pictures|107|18
+Book|144|Les Soeurs Rondoli|Guy de Maupassant|Nouvelles sur les relations amoureuses|224|Folio
+Digital|145|Starz|Lions Gate Entertainment|Premium TV|400.0|https://starz.com
+Video|146|L'Avventura|Michelangelo Antonioni|Cino del Duca|144
+Book|147|Monsieur Parent|Guy de Maupassant|Nouvelles sur la famille bourgeoise|320|Folio
+CD|148|Bringing It All Back Home|Bob Dylan|47.4|11|Columbia Records
+VHS|149|The Godfather Part II|Francis Ford Coppola|Paramount Pictures|202
+Book|150|La Maison Tellier|Guy de Maupassant|Nouvelles sur la condition féminine|256|Folio
+Video|151|Persona|Ingmar Bergman|SF Studios|83
+Reviews|152|Rolling Stone|Penske Media Corporation|Magazine musical et culturel bimensuel|150|Rolling Stone|Penske Media|45
+DVD|153|The Third Man|Carol Reed|London Films|104|12
+Book|154|Yvette|Guy de Maupassant|Nouvelle sur l'innocence perdue|96|Folio
+CD|155|Blood on the Tracks|Bob Dylan|51.5|10|Columbia Records
+Digital|156|Showtime|Paramount Global|Premium TV|500.0|https://showtime.com
+Book|157|Le Rosier de Madame Husson|Guy de Maupassant|Nouvelles humoristiques provinciales|288|Folio
+VHS|158|One Flew Over the Cuckoo's Nest|Miloš Forman|United Artists|133
+Video|159|Wild Strawberries|Ingmar Bergman|SF Studios|91
+Book|160|Toine|Guy de Maupassant|Nouvelles rurales normandes|224|Folio
+CD|161|The Beatles (White Album)|The Beatles|93.4|30|Apple Records
+Reviews|162|The New Yorker|Condé Nast|Magazine littéraire et culturel hebdomadaire|80|The New Yorker|Condé Nast|25
+DVD|163|Notorious|Alfred Hitchcock|RKO Pictures|101|14
+Book|164|La Ficelle|Guy de Maupassant|Nouvelle sur les malentendus sociaux|16|Folio
+Digital|165|ESPN+|The Walt Disney Company|Sports Streaming|150.0|https://espn.com
+Video|166|Mulholland Drive|David Lynch|Les Films Alain Sarde|147
+Book|167|Le Parapluie|Guy de Maupassant|Nouvelle sur l'avarice bourgeoise|24|Folio
+CD|168|Are You Experienced|The Jimi Hendrix Experience|39.2|11|Track Records
+VHS|169|Annie Hall|Woody Allen|United Artists|93
+Book|170|Deux Amis|Guy de Maupassant|Nouvelle sur l'amitié pendant la guerre|16|Folio
+Video|171|2001: A Space Odyssey|Stanley Kubrick|MGM|149
+Reviews|172|Esquire|Hearst Communications|Magazine masculin mensuel|120|Esquire|Hearst|40
+DVD|173|The Best Years of Our Lives|William Wyler|The Samuel Goldwyn Company|170|22
+Book|174|La Nuit|Guy de Maupassant|Nouvelle fantastique urbaine|20|Folio
+CD|175|Graceland|Paul Simon|43.6|11|Warner Bros Records
+Digital|176|Vudu|Fandango Media|Video On Demand|100.0|https://vudu.com
+Book|177|Le Vieux|Guy de Maupassant|Nouvelle sur la vieillesse solitaire|24|Folio
+VHS|178|The Deer Hunter|Michael Cimino|Universal Pictures|183
+Video|179|Amour|Michael Haneke|Les Films du Losange|127
+Book|180|Un Coup d'État|Guy de Maupassant|Nouvelle politique satirique|20|Folio
+CD|181|Songs in the Key of Life|Stevie Wonder|105.4|21|Tamla Records
+Reviews|182|GQ|Condé Nast|Magazine masculin mensuel|200|GQ|Condé Nast|70
+DVD|183|It's a Wonderful Life|Frank Capra|Liberty Films|130|16
+Book|184|L'Aventure de Walter Schnaffs|Guy de Maupassant|Nouvelle comique sur un soldat prussien|16|Folio
+Digital|185|Tubi|Fox Corporation|Free Streaming|50.0|https://tubi.tv
+Video|186|The Tree of Life|Terrence Malick|River Road Entertainment|139
+Book|187|Menuet|Guy de Maupassant|Nouvelle sur la nostalgie du passé|12|Folio
+CD|188|Exile on Main St.|The Rolling Stones|67.2|18|Rolling Stones Records
+VHS|189|Apocalypse Now|Francis Ford Coppola|United Artists|153
+Book|190|Le Petit Fût|Guy de Maupassant|Nouvelle sur l'alcoolisme rural|20|Folio
+Video|191|There Will Be Blood|Paul Thomas Anderson|Paramount Vantage|158
+Reviews|192|Popular Science|Bonnier Corporation|Magazine scientifique mensuel|80|Popular Science|Bonnier|30
+DVD|193|Rear Window|Alfred Hitchcock|Paramount Pictures|112|10
+Book|194|La Rempailleuse|Guy de Maupassant|Nouvelle sur les métiers artisanaux|16|Folio
+CD|195|Tapestry|Carole King|44.7|12|Ode Records
+Digital|196|Pluto TV|Paramount Global|Free Streaming|30.0|https://pluto.tv
+Book|197|En Mer|Guy de Maupassant|Nouvelle maritime dramatique|16|Folio
+VHS|198|The Exorcist|William Friedkin|Warner Bros|122
+Video|199|No Country for Old Men|Joel et Ethan Coen|Miramax Films|122
+Book|200|Un Lâche|Guy de Maupassant|Nouvelle sur l'honneur et la lâcheté|16|Folio
+CD|201|The Rise and Fall of Ziggy Stardust|David Bowie|38.3|11|RCA Records
+Reviews|202|Mental Floss|Minute Media|Magazine de culture générale|60|Mental Floss|Minute Media|20
+DVD|203|Vertigo|Alfred Hitchcock|Paramount Pictures|128|18
+Book|204|Suicides|Guy de Maupassant|Nouvelles sur le désespoir humain|32|Folio
+Digital|205|IMDb TV|Amazon|Free Streaming|40.0|https://imdb.tv
+Video|206|Boyhood|Richard Linklater|IFC Productions|165
+Book|207|L'Inutile Beauté|Guy de Maupassant|Nouvelles sur la condition féminine|288|Folio
+CD|208|Low|David Bowie|38.6|11|RCA Records
+VHS|209|All the President's Men|Alan J. Pakula|Warner Bros|138
+Book|210|Garçon, un Bock !|Guy de Maupassant|Nouvelle sur les habitudes parisiennes|16|Folio
+Video|211|Her|Spike Jonze|Annapurna Pictures|126
+Reviews|212|Psychology Today|Sussex Publishers|Magazine de psychologie mensuel|90|Psychology Today|Sussex Publishers|35
+DVD|213|Psycho|Alfred Hitchcock|Paramount Pictures|109|15
+Book|214|Le Masque|Guy de Maupassant|Nouvelle sur les apparences trompeuses|20|Folio
+CD|215|The Chronic|Dr. Dre|62.4|16|Death Row Records
+Digital|216|Roku Channel|Roku Inc.|Free Streaming|25.0|https://roku.com
+Book|217|Clair de Lune|Guy de Maupassant|Nouvelle romantique nocturne|16|Folio
+VHS|218|Network|Sidney Lumet|MGM|121
+Video|219|Moonlight|Barry Jenkins|A24|111
+Book|220|Le Donneur d'Eau Bénite|Guy de Maupassant|Nouvelle sur l'hypocrisie religieuse|16|Folio
+CD|221|Illmatic|Nas|39.9|10|Columbia Records
+Reviews|222|Discover|Kalmbach Media|Magazine scientifique mensuel|100|Discover|Kalmbach Media|40
+DVD|223|The Graduate|Mike Nichols|Embassy Pictures|106|12
+Book|224|L'Aveu|Guy de Maupassant|Nouvelle sur les secrets familiaux|20|Folio
+Digital|225|Crackle|Sony Pictures|Free Streaming|35.0|https://crackle.com
+Video|226|La La Land|Damien Chazelle|Summit Entertainment|128
+Book|227|Rose|Guy de Maupassant|Nouvelle sur l'amour passionnel|16|Folio
+CD|228|Ready to Die|The Notorious B.I.G.|66.4|17|Bad Boy Records
+VHS|229|The French Connection|William Friedkin|20th Century Fox|104
+Book|230|La Femme de Paul|Guy de Maupassant|Nouvelle sur la jalousie amoureuse|20|Folio
+Video|231|Birdman|Alejandro G. Iñárritu|Fox Searchlight|119
+Reviews|232|Smithsonian Magazine|Smithsonian Institution|Magazine culturel mensuel|120|Smithsonian|Smithsonian Institution|45
+DVD|233|Bonnie and Clyde|Arthur Penn|Warner Bros|111|14
+Book|234|Le Baptême|Guy de Maupassant|Nouvelle sur les traditions familiales|16|Folio
+CD|235|Enter the Wu-Tang (36 Chambers)|Wu-Tang Clan|61.4|12|Loud Records
+Digital|236|The Criterion Channel|The Criterion Collection|Art Film Streaming|500.0|https://criterionchannel.com
+Book|237|La Confidence|Guy de Maupassant|Nouvelle sur les confidences féminines|16|Folio
+VHS|238|Mean Streets|Martin Scorsese|Warner Bros|112
+Video|239|Whiplash|Damien Chazelle|Sony Pictures|107
+Book|240|Hautot Père et Fils|Guy de Maupassant|Nouvelle sur la transmission familiale|20|Folio
+CD|241|The Miseducation of Lauryn Hill|Lauryn Hill|77.2|15|Ruffhouse Records
+Reviews|242|IEEE Spectrum|IEEE|Magazine technologique mensuel|80|IEEE Spectrum|IEEE|25
+DVD|243|Amadeus|Miloš Forman|Orion Pictures|160|24
+Book|244|En Famille|Guy de Maupassant|Nouvelle sur les relations familiales|24|Folio
+Digital|245|Kanopy|OverDrive Inc.|Educational Streaming|200.0|https://kanopy.com
+Video|246|Spotlight|Tom McCarthy|Anonymous Content|129
+Book|247|L'Héritage|Guy de Maupassant|Nouvelle sur les successions familiales|24|Folio
+CD|248|The Low End Theory|A Tribe Called Quest|45.4|14|Jive Records
+VHS|249|Serpico|Sidney Lumet|Paramount Pictures|130
+Book|250|Aux Champs|Guy de Maupassant|Nouvelle sur la vie paysanne|16|Folio
+Video|251|Manchester by the Sea|Kenneth Lonergan|Amazon Studios|137
+Reviews|252|Fortune|Time Inc.|Magazine économique bimensuel|150|Fortune|Fortune Media Group|50
+DVD|253|Cabaret|Bob Fosse|Allied Artists|124|16
+Book|254|Un Réveillon|Guy de Maupassant|Nouvelle sur les fêtes bourgeoises|16|Folio
+CD|255|Straight Outta Compton|N.W.A|56.2|13|Ruthless Records
+Digital|256|Plex|Plex Inc.|Media Server|100.0|https://plex.tv
+Book|257|La Bête à Maît' Belhomme|Guy de Maupassant|Nouvelle fantastique rurale|16|Folio
+VHS|258|Dog Day Afternoon|Sidney Lumet|Warner Bros|125
+Video|259|The Shape of Water|Guillermo del Toro|Fox Searchlight|123
+Book|260|Ce Cochon de Morin|Guy de Maupassant|Nouvelle comique sur un malentendu|20|Folio
+CD|261|It Takes a Nation of Millions|Public Enemy|57.9|20|Def Jam Recordings
+Reviews|262|Fast Company|Mansueto Ventures|Magazine d'innovation mensuel|100|Fast Company|Mansueto Ventures|35
+DVD|263|The Apartment|Billy Wilder|United Artists|125|18
+Book|264|Le Parricide|Guy de Maupassant|Nouvelle sur un crime familial|16|Folio
+Digital|265|Popcornflix|Screen Media Ventures|Free Streaming|20.0|https://popcornflix.com
+Video|266|Three Billboards Outside Ebbing Missouri|Martin McDonagh|Fox Searchlight|115
+Book|267|L'Ordonnance|Guy de Maupassant|Nouvelle militaire humoristique|16|Folio
+CD|268|AmericaN|System of a Down|58.7|14|American Recordings
+VHS|269|The Conversation|Francis Ford Coppola|Paramount Pictures|113
+Book|270|Le Vagabond|Guy de Maupassant|Nouvelle sur la marginalité sociale|16|Folio
+Video|271|Parasite|Bong Joon-ho|Barunson E&A|132
+Reviews|272|Inc. Magazine|Mansueto Ventures|Magazine entrepreneurial mensuel|120|Inc.|Inc. Magazine|40
+DVD|273|Nashville|Robert Altman|Paramount Pictures|160|20
+Book|274|Le Protecteur|Guy de Maupassant|Nouvelle sur les relations de pouvoir|20|Folio
+CD|275|Nevermind|Nirvana|42.6|12|DGC Records
+Digital|276|Xumo|Comcast Corporation|Free Streaming|30.0|https://xumo.tv
+Book|277|Les Tombales|Guy de Maupassant|Nouvelle sur le deuil et la mémoire|16|Folio
+VHS|278|Klute|Alan J. Pakula|Warner Bros|114
+Video|279|Green Book|Peter Farrelly|Universal Pictures|130
+Book|280|La Moustache|Guy de Maupassant|Nouvelle sur l'apparence masculine|16|Folio
+CD|281|Ten|Pearl Jam|53.1|11|Epic Records
+Reviews|282|Bloomberg Businessweek|Bloomberg L.P.|Magazine économique hebdomadaire|60|Bloomberg Businessweek|Bloomberg|20
+DVD|283|Being There|Hal Ashby|Lorimar Productions|130|15
+Book|284|Le Crime au Père Boniface|Guy de Maupassant|Nouvelle sur un crime rural|20|Folio
+Digital|285|FilmRise|FilmRise LLC|Content Distribution|75.0|https://filmrise.com
+Video|286|Roma|Alfonso Cuarón|Netflix|135
+Book|287|L'Aveugle|Guy de Maupassant|Nouvelle sur le handicap et la société|16|Folio
+CD|288|Doggystyle|Snoop Dogg|66.9|23|Death Row Records
+VHS|289|Manhattan|Woody Allen|United Artists|96
+Book|290|Le Voleur|Guy de Maupassant|Nouvelle sur la petite délinquance|16|Folio
+Video|291|The Favourite|Yorgos Lanthimos|Fox Searchlight|119
+Reviews|292|MIT Technology Review|Massachusetts Institute of Technology|Magazine technologique bimensuel|100|MIT Technology Review|MIT|35
+DVD|293|The Silence of the Lambs|Jonathan Demme|Orion Pictures|118|16
+Book|294|La Dot|Guy de Maupassant|Nouvelle sur le mariage bourgeois|20|Folio
+CD|295|The Blueprint|Jay-Z|65.3|13|Roc-A-Fella Records
+Digital|296|Tidal|Block Inc.|High-Quality Streaming|400.0|https://tidal.com
+Book|297|Le Gendarme|Guy de Maupassant|Nouvelle sur l'autorité rurale|16|Folio
+VHS|298|The Wild Bunch|Sam Peckinpah|Warner Bros|145
+Video|299|1917|Sam Mendes|Universal Pictures|119
+Book|300|Mon Oncle Sosthène|Guy de Maupassant|Nouvelle familiale humoristique|20|Folio
+CD|301|Good Kid, M.A.A.D City|Kendrick Lamar|68.1|12|Top Dawg Entertainment
+Reviews|302|Harvard Business Review|Harvard Business Publishing|Magazine de management mensuel|200|Harvard Business Review|Harvard Business Publishing|65
+DVD|303|Lawrence of Arabia|David Lean|Horizon Pictures|227|28
+Book|304|Un Duel|Guy de Maupassant|Nouvelle sur l'honneur masculin|16|Folio
+Digital|305|SoundCloud|SoundCloud Ltd.|Audio Sharing|150.0|https://soundcloud.com
+Video|306|Joker|Todd Phillips|Warner Bros|122
+Book|307|Le Vengeur|Guy de Maupassant|Nouvelle sur la vengeance familiale|20|Folio
+CD|308|To Pimp a Butterfly|Kendrick Lamar|78.9|16|Top Dawg Entertainment
+VHS|309|McCabe & Mrs. Miller|Robert Altman|Warner Bros|120
+Book|310|Madame Baptiste|Guy de Maupassant|Nouvelle sur les commérages provinciaux|16|Folio
+Video|311|Once Upon a Time in Hollywood|Quentin Tarantino|Columbia Pictures|161
+Reviews|312|The New Republic|Win McCormack|Magazine politique et culturel|80|The New Republic|The New Republic|25
+DVD|313|Annie Hall|Woody Allen|United Artists|93|12
+Book|314|Le Cas de Madame Luneau|Guy de Maupassant|Nouvelle sur un scandale provincial|20|Folio
+CD|315|DAMN.|Kendrick Lamar|54.8|14|Top Dawg Entertainment
+Digital|316|Bandcamp|Bandcamp Inc.|Independent Music|50.0|https://bandcamp.com
+Book|317|Tribunaux Rustiques|Guy de Maupassant|Nouvelle sur la justice rurale|16|Folio
+VHS|318|Chinatown|Roman Polanski|Paramount Pictures|130
+Video|319|Minari|Lee Isaac Chung|A24|115
+Book|320|Un Normand|Guy de Maupassant|Nouvelle sur les caractères régionaux|16|Folio
+CD|321|The Eminem Show|Eminem|76.8|20|Aftermath Entertainment
+Reviews|322|Mother Jones|Foundation for National Progress|Magazine progressiste bimensuel|70|Mother Jones|Mother Jones|22
+DVD|323|The French Connection|William Friedkin|20th Century Fox|104|12
+Book|324|Les Sabots|Guy de Maupassant|Nouvelle sur la pauvreté rurale|16|Folio
+Digital|325|Deezer|Deezer SA|Music Streaming|300.0|https://deezer.com
+Video|326|Sound of Metal|Darius Marder|Amazon Studios|120
+Book|327|La Serre|Guy de Maupassant|Nouvelle sur les relations extraconjugales|20|Folio
+CD|328|The Marshall Mathers LP|Eminem|72.4|18|Aftermath Entertainment
+VHS|329|Straw Dogs|Sam Peckinpah|Cinerama Releasing Corporation|118
+Book|330|Petit Soldat|Guy de Maupassant|Nouvelle militaire touchante|16|Folio
+Video|331|Nomadland|Chloé Zhao|Searchlight Pictures|107
+Reviews|332|The Nation|The Nation Company|Magazine progressiste hebdomadaire|50|The Nation|The Nation Company|15
+DVD|333|M|Fritz Lang|Nero-Film|99|14
+Book|334|L'Abandonné|Guy de Maupassant|Nouvelle sur l'enfance abandonnée|20|Folio
+CD|335|All Eyez on Me|2Pac|132.4|27|Death Row Records
+Digital|336|Pandora|SiriusXM|Personalized Radio|100.0|https://pandora.com
+Book|337|Duchoux|Guy de Maupassant|Nouvelle sur l'alcoolisme provincial|16|Folio
+VHS|338|Five Easy Pieces|Bob Rafelson|Columbia Pictures|98
+Video|339|CODA|Sian Heder|Apple Studios|111
+Book|340|Saint-Antoine|Guy de Maupassant|Nouvelle sur la religiosité populaire|16|Folio
+CD|341|Life After Death|The Notorious B.I.G.|111.5|24|Bad Boy Records
+Reviews|342|The Progressive|The Progressive Inc.|Magazine progressiste mensuel|80|The Progressive|The Progressive Inc.|25
+DVD|343|Persona|Ingmar Bergman|SF Studios|83|10
+Book|344|L'Ermite|Guy de Maupassant|Nouvelle sur la solitude volontaire|16|Folio
+Digital|345|iHeartRadio|iHeartMedia|Radio and Podcasts|80.0|https://iheart.com
+Video|346|The Power of the Dog|Jane Campion|Netflix|126
+Book|347|En Voyage|Guy de Maupassant|Nouvelle sur les rencontres ferroviaires|20|Folio
+CD|348|Me Against the World|2Pac|65.8|15|Interscope Records
+VHS|349|Badlands|Terrence Malick|Warner Bros|94
+Book|350|La Question du Latin|Guy de Maupassant|Nouvelle satirique sur l'éducation|16|Folio
+Video|351|West Side Story|Steven Spielberg|20th Century Studios|156
+Reviews|352|The American Prospect|The American Prospect Inc.|Magazine progressiste mensuel|100|The American Prospect|The American Prospect Inc.|35
+DVD|353|8½|Federico Fellini|Cineriz|138|20
+Book|354|Tribunaux Rustiques|Guy de Maupassant|Nouvelle sur la justice populaire|16|Folio
+CD|355|The Notorious B.I.G.|The Notorious B.I.G.|74.2|17|Bad Boy Records
+Digital|356|YouTube Music|Google|Music Streaming|200.0|https://music.youtube.com
+Book|357|La Relique|Guy de Maupassant|Nouvelle sur les souvenirs familiaux|16|Folio
+VHS|358|The Last Picture Show|Peter Bogdanovich|Columbia Pictures|118
+Video|359|Dune|Denis Villeneuve|Warner Bros|155
+Book|360|Les Idées du Colonel|Guy de Maupassant|Nouvelle militaire humoristique|20|Folio
+CD|361|The Chronic 2001|Dr. Dre|68.4|22|Aftermath Entertainment
+Reviews|362|Jacobin|Jacobin Foundation|Magazine socialiste trimestriel|120|Jacobin|Jacobin Foundation|40
+DVD|363|Wild Strawberries|Ingmar Bergman|SF Studios|91|12
+Book|364|La Rouille|Guy de Maupassant|Nouvelle sur le vieillissement|16|Folio
+Digital|365|Amazon Music|Amazon|Music Streaming|350.0|https://music.amazon.com
+Video|366|Top Gun: Maverick|Joseph Kosinski|Paramount Pictures|131
+Book|367|Le Petit|Guy de Maupassant|Nouvelle sur l'enfance malheureuse|16|Folio
+CD|368|Aquemini|OutKast|73.5|16|LaFace Records
+VHS|369|Days of Heaven|Terrence Malick|Paramount Pictures|94
+Book|370|Clochette|Guy de Maupassant|Nouvelle sur la condition féminine rurale|16|Folio
+Video|371|Everything Everywhere All at Once|Daniels|A24|139
+Reviews|372|In These Times|Institute for Public Affairs|Magazine progressiste mensuel|90|In These Times|Institute for Public Affairs|30
+DVD|373|Mulholland Drive|David Lynch|Les Films Alain Sarde|147|18
+Book|374|Allouma|Guy de Maupassant|Nouvelle coloniale sur l'Algérie|32|Folio
+CD|375|Stankonia|OutKast|79.9|24|LaFace Records
+Digital|376|Apple Music|Apple Inc.|Music Streaming|450.0|https://music.apple.com
+Book|377|Boitelle|Guy de Maupassant|Nouvelle sur les préjugés sociaux|20|Folio
+VHS|378|The Godfather|Francis Ford Coppola|Paramount Pictures|175
+Video|379|Avatar: The Way of Water|James Cameron|20th Century Studios|192
+Book|380|L'Infirme|Guy de Maupassant|Nouvelle sur le handicap et l'amour|20|Folio
+CD|381|The Love Below|André 3000|75.7|20|LaFace Records
+Reviews|382|Dissent|Foundation for the Study of Independent Social Ideas|Magazine socialiste démocratique trimestriel|100|Dissent|Dissent Foundation|35
+DVD|383|There Will Be Blood|Paul Thomas Anderson|Paramount Vantage|158|22
+Book|384|Magnétisme|Guy de Maupassant|Nouvelle sur l'hypnose et la suggestion|20|Folio
+Digital|385|Qobuz|Qobuz SA|Hi-Fi Streaming|500.0|https://qobuz.com
+Video|386|The Batman|Matt Reeves|Warner Bros|176
+Book|387|Rêves|Guy de Maupassant|Nouvelle sur les aspirations bourgeoises|16|Folio
+CD|388|Speakerboxxx|Big Boi|79.4|20|LaFace Records
+VHS|389|Nashville|Robert Altman|Paramount Pictures|160
+Book|390|Le Port|Guy de Maupassant|Nouvelle maritime et sociale|20|Folio
+Video|391|Turning Red|Domee Shi|Pixar|100
+Reviews|392|Democracy Journal|Democracy: A Journal of Ideas|Magazine de politique publique trimestriel|150|Democracy Journal|Democracy Journal|50
+DVD|393|No Country for Old Men|Joel et Ethan Coen|Miramax Films|122|16
+Book|394|Solitude|Guy de Maupassant|Nouvelle sur l'isolement humain|20|Folio
+CD|395|The College Dropout|Kanye West|76.1|21|Roc-A-Fella Records
+Digital|396|TIDAL|Block Inc.|Hi-Fi Streaming|600.0|https://tidal.com
+Book|397|Berthe|Guy de Maupassant|Nouvelle sur l'amour maternel|20|Folio
+VHS|398|The Deer Hunter|Michael Cimino|Universal Pictures|183
+Video|399|Spider-Man: No Way Home|Jon Watts|Sony Pictures|148
+Book|400|L'Odyssée d'un Paysan Parisien|Guy de Maupassant|Nouvelle sur l'exode rural|24|Folio
+CD|401|Late Registration|Kanye West|70.5|21|Roc-A-Fella Records
+Reviews|402|The Washington Monthly|Washington Monthly Company|Magazine politique mensuel|80|Washington Monthly|Washington Monthly Company|25
+DVD|403|Goodfellas|Martin Scorsese|Warner Bros|146|14
+Book|404|Le Lit 29|Guy de Maupassant|Nouvelle hospitalière dramatique|20|Folio
+Digital|405|Anghami|Anghami Inc.|Middle Eastern Streaming|250.0|https://anghami.com
+Video|406|Encanto|Jared Bush|Walt Disney Pictures|102
+Book|407|Amoureux|Guy de Maupassant|Nouvelle sur la passion amoureuse|16|Folio
+CD|408|Graduation|Kanye West|51.2|13|Roc-A-Fella Records
+VHS|409|Raging Bull|Martin Scorsese|United Artists|129
+Book|410|Une Ruse|Guy de Maupassant|Nouvelle sur la tromperie conjugale|16|Folio
+Video|411|The French Dispatch|Wes Anderson|Fox Searchlight|107
+Reviews|412|The American Conservative|The American Ideas Institute|Magazine conservateur bimensuel|70|The American Conservative|The American Conservative|22
+DVD|413|Taxi Driver|Martin Scorsese|Columbia Pictures|114|15
+Book|414|Le Mari de sa Veuve|Guy de Maupassant|Nouvelle sur le remariage|20|Folio
+CD|415|808s & Heartbreak|Kanye West|52.2|12|Roc-A-Fella Records
+Digital|416|JioSaavn|Reliance Jio|Indian Streaming|200.0|https://jiosaavn.com
+Book|417|L'Auberge|Guy de Maupassant|Nouvelle dramatique de montagne|32|Folio
+VHS|418|Serpico|Sidney Lumet|Paramount Pictures|130
+Video|419|Licorice Pizza|Paul Thomas Anderson|MGM|133
+Book|420|Le Diable|Guy de Maupassant|Nouvelle sur les superstitions rurales|20|Folio
+CD|421|My Beautiful Dark Twisted Fantasy|Kanye West|68.0|13|Roc-A-Fella Records
+Reviews|422|Reason|Reason Foundation|Magazine libertarien mensuel|90|Reason|Reason Foundation|30
+DVD|423|The Shawshank Redemption|Frank Darabont|Castle Rock Entertainment|142|20
+Book|424|La Parure|Guy de Maupassant|Nouvelle célèbre sur l'orgueil|20|Folio
+Digital|425|Gaana|Times Internet|Indian Streaming|150.0|https://gaana.com
+Video|426|Belfast|Kenneth Branagh|Focus Features|98
+Book|427|Le Collier|Guy de Maupassant|Variation sur le thème de la parure|16|Folio
+CD|428|Yeezus|Kanye West|40.0|10|Def Jam Recordings
+VHS|429|All the President's Men|Alan J. Pakula|Warner Bros|138
+Book|430|La Légende du Mont Saint-Michel|Guy de Maupassant|Récit légendaire normand|16|Folio
+Video|431|House of Gucci|Ridley Scott|MGM|158
+Reviews|432|National Review|National Review Inc.|Magazine conservateur bimensuel|100|National Review|National Review Inc.|35
+DVD|433|Schindler's List|Steven Spielberg|Universal Pictures|195|18
+Book|434|Les Bijoux|Guy de Maupassant|Nouvelle sur les apparences conjugales|20|Folio
+CD|435|The Life of Pablo|Kanye West|66.0|20|GOOD Music
+Digital|436|Wynk Music|Airtel|Indian Streaming|100.0|https://wynk.in
+Book|437|La Chevelure|Guy de Maupassant|Nouvelle fantastique sur l'obsession|20|Folio
+VHS|438|The French Connection|William Friedkin|20th Century Fox|104
+Video|439|Don't Look Up|Adam McKay|Netflix|138
+Book|440|Qui Sait ?|Guy de Maupassant|Dernière nouvelle fantastique de l'auteur|24|Folio
+CD|441|Kids See Ghosts|Kids See Ghosts|23.5|7|GOOD Music
+Reviews|442|The Weekly Standard|Clarity Media Group|Magazine conservateur hebdomadaire|60|The Weekly Standard|The Weekly Standard|18
+DVD|443|Citizen Kane|Orson Welles|RKO Pictures|119|16
+Book|444|Le Tic|Guy de Maupassant|Nouvelle sur les manies humaines|16|Folio
+Digital|445|KKBox|KKBox Inc.|Asian Streaming|300.0|https://kkbox.com
+Video|446|The King's Man|Matthew Vaughn|20th Century Studios|131
+Book|447|Fou ?|Guy de Maupassant|Nouvelle sur la folie et la lucidité|16|Folio
+CD|448|Ye|Kanye West|23.5|7|GOOD Music
+VHS|449|Dog Day Afternoon|Sidney Lumet|Warner Bros|125
+Book|450|Un Fou ?|Guy de Maupassant|Variation sur le thème de la folie|16|Folio
+Video|451|The Matrix Resurrections|Lana Wachowski|Warner Bros|148
+Reviews|452|Commentary|American Jewish Committee|Magazine conservateur mensuel|120|Commentary|Commentary|40
+DVD|453|Apocalypse Now|Francis Ford Coppola|United Artists|153|20
+Book|454|Madame Hermet|Guy de Maupassant|Nouvelle sur l'hypocrisie bourgeoise|20|Folio
+CD|455|Jesus Is King|Kanye West|27.0|11|GOOD Music
+Digital|456|Yandex Music|Yandex|Russian Streaming|250.0|https://music.yandex.com
+Book|457|Sauvée|Guy de Maupassant|Nouvelle sur la rédemption féminine|20|Folio
+VHS|458|Network|Sidney Lumet|MGM|121
+Video|459|The Lost Daughter|Maggie Gyllenhaal|Netflix|121
+Book|460|L'Inconnue|Guy de Maupassant|Nouvelle sur les rencontres mystérieuses|16|Folio
+CD|461|Donda|Kanye West|108.6|27|GOOD Music
+Reviews|462|First Things|Institute on Religion and Public Life|Magazine religieux conservateur mensuel|80|First Things|First Things|25
+DVD|463|Raging Bull|Martin Scorsese|United Artists|129|18
+Book|464|Une Vendetta|Guy de Maupassant|Nouvelle corse sur la vengeance|16|Folio
+Digital|465|Shazam|Apple Inc.|Music Recognition|10.0|https://shazam.com
+Video|466|The Tragedy of Macbeth|Joel Coen|Apple Studios|105
+Book|467|La Main|Guy de Maupassant|Nouvelle fantastique macabre|16|Folio
+CD|468|Donda 2|Kanye West|57.5|16|GOOD Music
+VHS|469|The Conversation|Francis Ford Coppola|Paramount Pictures|113
+Book|470|Sur l'Eau|Guy de Maupassant|Récit de voyage maritime|288|Folio
+Video|471|Drive My Car|Ryusuke Hamaguchi|Bitters End|179
+Reviews|472|The Public Interest|National Affairs Inc.|Magazine de politique publique trimestriel|100|The Public Interest|National Affairs Inc.|35
+DVD|473|The Godfather Part II|Francis Ford Coppola|Paramount Pictures|202|24
+Book|474|Notre Cœur|Guy de Maupassant|Roman psychologique sur l'amour|256|Folio
+Digital|475|Last.fm|CBS Interactive|Music Social Network|50.0|https://last.fm
+Video|476|Nightmare Alley|Guillermo del Toro|Fox Searchlight|150
+Book|477|Fort comme la Mort|Guy de Maupassant|Roman sur la passion et l'âge|224|Folio
+CD|478|Vultures 1|¥$ (Kanye West & Ty Dolla $ign)|44.0|16|GOOD Music
+VHS|479|Mean Streets|Martin Scorsese|Warner Bros|112
+Book|480|Mont-Oriol|Guy de Maupassant|Roman social sur le thermalisme|384|Folio
+Video|481|The Worst Person in the World|Joachim Trier|Oslo Pictures|128
+Reviews|482|Policy Review|Hoover Institution|Magazine conservateur trimestriel|150|Policy Review|Hoover Institution|50
+DVD|483|Goodfellas|Martin Scorsese|Warner Bros|146|16
+Book|484|L'Angélus|Guy de Maupassant|Nouvelle sur la dévotion religieuse|16|Folio
+Digital|485|Audiomack|Audiomack Inc.|Free Music Platform|75.0|https://audiomack.com
+Video|486|CODA|Sian Heder|Vendome Pictures|111
+Book|487|Le Baptême|Guy de Maupassant|Nouvelle sur les rites familiaux|16|Folio
+CD|488|Graduation|Kanye West|51.2|13|Roc-A-Fella Records
+VHS|489|Klute|Alan J. Pakula|Warner Bros|114
+Book|490|Miss Harriet|Guy de Maupassant|Recueil de nouvelles variées|288|Folio
+Video|491|The Power of the Dog|Jane Campion|Cross City Films|126
+Reviews|492|The Claremont Review of Books|The Claremont Institute|Magazine conservateur trimestriel|100|The Claremont Review|Claremont Institute|35
+DVD|493|Taxi Driver|Martin Scorsese|Columbia Pictures|114|16
+Book|494|Contes du Jour et de la Nuit|Guy de Maupassant|Second recueil de nouvelles|352|Folio
+Digital|495|Mixcloud|Mixcloud Ltd.|DJ Mixes and Podcasts|100.0|https://mixcloud.com
+Video|496|Flee|Jonas Poher Rasmussen|Final Cut for Real|89
+Book|497|Monsieur Parent|Guy de Maupassant|Troisième recueil de nouvelles|320|Folio
+CD|498|My Beautiful Dark Twisted Fantasy|Kanye West|68.0|13|Roc-A-Fella Records
+VHS|499|Five Easy Pieces|Bob Rafelson|Columbia Pictures|98
+Book|500|La Petite Roque|Guy de Maupassant|Quatrième recueil de nouvelles|288|Folio
