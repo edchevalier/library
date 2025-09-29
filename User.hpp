@@ -27,6 +27,8 @@ class User {
         std::string getLastName() const;
         std::string getEmailAddress() const;
         int getIdUser() const;
+
+        virtual ~User() = default;
 };
 
 

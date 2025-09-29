@@ -24,6 +24,8 @@ class Resource {
         std::string getTitle() const;
         std::string getAuthor() const;
         int getIdResource() const;
+
+        virtual ~Resource() = default;
 };
 
 
