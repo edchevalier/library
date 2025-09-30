@@ -97,9 +97,9 @@ void Library::showLibraryInfo() const {
     std::cout << "Nombre de ressources: " << resources.size() << std::endl;
     std::cout << std::endl;
 
-    showAllUsers();
+    //showAllUsers();
     std::cout << std::endl;
-    showAllResources();
+    //showAllResources();
 }
 
 const std::vector<User*>& Library::getUsers() const {

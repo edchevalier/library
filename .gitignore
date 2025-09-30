@@ -1,0 +1,11 @@
+# Fichiers objets et binaires
+*.o
+obj/
+mon_programme
+
+# Fichiers temporaires d'éditeur
+*~
+*.swp
+
+# Config locale VSCode (optionnel)
+.vscode/

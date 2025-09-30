@@ -21,7 +21,7 @@ int main() {
     std::cout << "\n===== Affichage des utilisateurs chargés =====" << std::endl;
     for (User* user : users) {
         if (user != nullptr) {
-            user->printDetails();
+            //user->printDetails();
             lib.addUser(user);
         }
     }
@@ -29,7 +29,7 @@ int main() {
     std::cout << "\n===== Affichage des ressources chargées =====" << std::endl;
     for (Resource* resource : resources) {
         if (resource != nullptr) {
-            resource->printDetails();
+            //resource->printDetails();
             lib.addResource(resource);
         }
     }
@@ -37,6 +37,7 @@ int main() {
     // Lancement d'une session
     Session session(&lib);
     session.run();
-
+    fileManager.saveUsers("utilisateurs.txt", lib.getUsers());
+    fileManager.saveResources("ressources.txt", lib.getResources());
     return 0;
 }

@@ -31,4 +31,10 @@ class Session {
 
         // Getter pour results
         const std::vector<Resource*>& getResults() const;
+
+        // Méthodes pour les menus
+        bool runUserMenu();
+        bool runAdminMenu();
+        void addResourceMenu();
+        void addUserMenu();
 };
