@@ -37,4 +37,6 @@ class Session {
         bool runAdminMenu();
         void addResourceMenu();
         void addUserMenu();
+        void borrowResourceMenu();
+        void returnResourceMenu();
 };

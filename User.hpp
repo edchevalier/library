@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 
+class Resource; // Déclaration anticipée
+
 class User {
     protected:
         int idUser;
@@ -27,6 +29,10 @@ class User {
         std::string getLastName() const;
         std::string getEmailAddress() const;
         int getIdUser() const;
+
+        bool borrowResource(Resource* resource);
+        bool returnResource(Resource* resource);
+
 
         virtual ~User() = default;
 };

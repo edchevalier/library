@@ -1,4 +1,5 @@
 #include "User.hpp"
+#include "Ressources/Resource.hpp" 
 
 // Constructeurs 
 User::User() : idUser(0), firstName(""), lastName(""), emailAddress("") {}
@@ -26,3 +27,36 @@ std::string User::getFirstName() const { return firstName; }
 std::string User::getLastName() const { return lastName; }
 std::string User::getEmailAddress() const { return emailAddress; }
 int User::getIdUser() const { return idUser; }
+
+bool User::borrowResource(Resource* resource) {
+    if (resource == nullptr) {
+        std::cout << "Erreur : ressource invalide." << std::endl;
+        return false;
+    }
+
+    if (resource->borrowResource(idUser)) {
+        std::cout << "Ressource '" << resource->getTitle() << "' empruntée avec succès." << std::endl;
+        return true;
+    } else {
+        std::cout << "Impossible d'emprunter la ressource '" << resource->getTitle() << "'. ";
+        if (!resource->isAvailable()) {
+            std::cout << "Elle est déjà empruntée par un utilisateur." << std::endl;
+        }
+        return false;
+    }
+}
+
+bool User::returnResource(Resource* resource) {
+    if (resource == nullptr) {
+        std::cout << "Erreur : ressource invalide." << std::endl;
+        return false;
+    }
+
+    if (resource->returnResource(idUser)) {
+        std::cout << "Ressource '" << resource->getTitle() << "' rendue avec succès." << std::endl;
+        return true;
+    } else {
+        std::cout << "Impossible de rendre la ressource '" << resource->getTitle() << "'. ";
+        return false;
+    }
+}

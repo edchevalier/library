@@ -147,7 +147,10 @@ bool Session::runUserMenu() {
     std::cout << "2. Effacer les résultats" << std::endl;
     std::cout << "3. Rechercher des ressources" << std::endl;
     std::cout << "4. Afficher les résultats actuels" << std::endl;
-    std::cout << "5. Quitter" << std::endl;
+    std::cout << "5. Emprunter une ressource" << std::endl;
+    std::cout << "6. Rendre une ressource" << std::endl;
+    std::cout << "7. Quitter" << std::endl;
+
 
     std::string command = readCommand();
 
@@ -180,6 +183,15 @@ bool Session::runUserMenu() {
         }
     }
     else if (command == "5") {
+        borrowResourceMenu();
+        return false;
+    }
+    else if (command == "6") {
+        returnResourceMenu();
+        return false;
+    }
+
+    else if (command == "7") {
         bye();
         return false;
     }
@@ -249,6 +261,7 @@ bool Session::runAdminMenu() {
     // Fonctions administratives - Ressources
     else if (command == "5") {
         addResourceMenu();
+
     }
     else if (command == "6") {
         std::cout << "Entrez l'ID de la ressource à supprimer: ";
@@ -472,5 +485,62 @@ void Session::addUserMenu() {
     if (newUser != nullptr) {
         library->addUser(newUser);
         std::cout << "Utilisateur ajouté avec succès!" << std::endl;
+    }
+}
+
+void Session::borrowResourceMenu() {
+    if (library == nullptr) {
+        std::cout << "Erreur: Aucune bibliothèque associée à la session." << std::endl;
+        return;
+    }
+    
+    std::cout << "\n=== Emprunter une ressource ===" << std::endl;
+    int userId, resourceId;
+    std::cout << "Entrez votre ID utilisateur: ";
+    std::cin >> userId;
+    User* user = library->findUser(userId);
+    if (user == nullptr) {
+        std::cout << "Utilisateur non trouvé." << std::endl;
+        return;
+    }
+
+    std::cout << "Entrez l'ID de la ressource à emprunter: ";
+    std::cin >> resourceId;
+    Resource* resource = library->findResource(resourceId);
+    if (resource == nullptr) {
+        std::cout << "Ressource non trouvée." << std::endl;
+        return;
+    }
+
+    if (user->borrowResource(resource)) {
+        std::cout << "Ressource empruntée avec succès!" << std::endl;
+    } else {
+        std::cout << "Échec de l'emprunt de la ressource." << std::endl;
+    }
+}
+void Session::returnResourceMenu() {
+
+    std::cout << "\n=== Rendre une ressource ===" << std::endl;
+    int userId, resourceId;
+    std::cout << "Entrez votre ID utilisateur: ";
+    std::cin >> userId;
+    User* user = library->findUser(userId);
+    if (user == nullptr) {
+        std::cout << "Utilisateur non trouvé." << std::endl;
+        return;
+    }
+
+    std::cout << "Entrez l'ID de la ressource à rendre: ";
+    std::cin >> resourceId;
+    Resource* resource = library->findResource(resourceId);
+    if (resource == nullptr) {
+        std::cout << "Ressource non trouvée." << std::endl;
+        return;
+    }
+
+    if (user->returnResource(resource)) {
+        std::cout << "Ressource rendue avec succès!" << std::endl;
+    } else {
+        std::cout << "Échec de la restitution de la ressource." << std::endl;
     }
 }
