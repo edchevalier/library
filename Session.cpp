@@ -147,15 +147,11 @@ bool Session::runUserMenu() {
     std::cout << "2. Effacer les résultats" << std::endl;
     std::cout << "3. Rechercher des ressources" << std::endl;
     std::cout << "4. Afficher les résultats actuels" << std::endl;
-<<<<<<< HEAD
     std::cout << "5. Emprunter une ressource" << std::endl;
     std::cout << "6. Rendre une ressource" << std::endl;
-    std::cout << "7. Quitter" << std::endl;
+    std::cout << "7. Afficher toutes les ressources" << std::endl;
+    std::cout << "8. Quitter" << std::endl;
 
-=======
-    std::cout << "5. Afficher toutes les ressources" << std::endl;
-    std::cout << "6. Quitter" << std::endl;
->>>>>>> afb38dd (Ajout possibilité afficher toutes les ressources user)
 
     std::string command = readCommand();
 
@@ -187,7 +183,6 @@ bool Session::runUserMenu() {
             }
         }
     }
-<<<<<<< HEAD
     else if (command == "5") {
         borrowResourceMenu();
         return false;
@@ -196,14 +191,11 @@ bool Session::runUserMenu() {
         returnResourceMenu();
         return false;
     }
-
     else if (command == "7") {
-=======
-    else if command == "5") {
         library->showAllResources();
+        return false;
     }
-    else if (command == "6") {
->>>>>>> afb38dd (Ajout possibilité afficher toutes les ressources user)
+    else if (command == "8") {
         bye();
         return false;
     }
