@@ -185,15 +185,12 @@ bool Session::runUserMenu() {
     }
     else if (command == "5") {
         borrowResourceMenu();
-        return false;
     }
     else if (command == "6") {
         returnResourceMenu();
-        return false;
     }
     else if (command == "7") {
         library->showAllResources();
-        return false;
     }
     else if (command == "8") {
         bye();
