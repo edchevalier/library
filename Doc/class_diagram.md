@@ -25,7 +25,19 @@ classDiagram
         #int idResource
         #string title
         #string author
+        #int borrowedBy
         +virtual printDetails()
+        +setTitle(string)
+        +setAuthor(string)
+        +setIdResource(int)
+        +setBorrowedBy(int)
+        +getTitle() string
+        +getAuthor() string
+        +getIdResource() int
+        +getBorrowedBy() int
+        +isAvailable() bool
+        +borrowResource(int) bool
+        +returnResource(int) bool
         +virtual ~Resource()
     }
 
@@ -85,6 +97,12 @@ classDiagram
         +findResource(int) Resource*
         +showAllResources()
         +showLibraryInfo()
+        +getUsers() vector~User*~
+        +getResources() vector~Resource*~
+        +borrowResource(int, int) bool
+        +returnResource(int, int) bool
+        +showBorrowedResources(int)
+        +showAvailableResources()
     }
 
     class Session {
@@ -119,6 +137,8 @@ classDiagram
     %% Relations d'association/composition
     Library o-- User : contient *
     Library o-- Resource : contient *
+    Client --> Resource : emprunte *
+    Resource --> User : emprunté par
     Session --> Library : utilise
     Session --> Resource : recherche
     FileManager ..> User : crée/sauvegarde
@@ -147,8 +167,22 @@ classDiagram
 - **Session** : Interface utilisateur et logique de session
 - **FileManager** : Gestion de la persistance des données
 
+### Gestion des Emprunts
+- **Resource** : Contient un attribut `borrowedBy` pour traquer l'utilisateur emprunteur
+- **Library** : Fournit des méthodes pour emprunter et retourner des ressources
+- **Client** : Peut emprunter plusieurs ressources simultanément
+- **Relations** : Association entre Client et Resource via les emprunts
+
+### Fonctionnalités d'Emprunt
+- ✅ **Emprunt** : `borrowResource(userId, resourceId)`
+- ✅ **Retour** : `returnResource(userId, resourceId)`
+- ✅ **Disponibilité** : `isAvailable()` pour vérifier si une ressource est libre
+- ✅ **Suivi** : Chaque ressource garde l'ID de l'utilisateur qui l'a empruntée
+- ✅ **Affichage** : Ressources empruntées par utilisateur et ressources disponibles
+
 ### Caractéristiques du Design
 - ✅ **Polymorphisme** : Méthodes virtuelles `printDetails()`
 - ✅ **Encapsulation** : Membres protected/private
 - ✅ **Héritage** : Hiérarchies logiques
 - ✅ **Composition** : Library contient des collections de pointeurs
+- ✅ **Gestion d'état** : Suivi des emprunts via `borrowedBy`

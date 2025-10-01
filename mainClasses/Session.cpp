@@ -1,15 +1,15 @@
 #include "Session.hpp"
 #include <iostream>
 #include <algorithm>
-#include "User.hpp"
-#include "Admin.hpp"
-#include "Client.hpp"
-#include "Ressources/Book.hpp"
-#include "Ressources/Reviews.hpp"
-#include "Ressources/CD.hpp"
-#include "Ressources/DVD.hpp"
-#include "Ressources/VHS.hpp"
-#include "Ressources/Digital.hpp"
+#include "../Users/User.hpp"
+#include "../Users/Admin.hpp"
+#include "../Users/Client.hpp"
+#include "../Ressources/Book.hpp"
+#include "../Ressources/Reviews.hpp"
+#include "../Ressources/CD.hpp"
+#include "../Ressources/DVD.hpp"
+#include "../Ressources/VHS.hpp"
+#include "../Ressources/Digital.hpp"
 
 Session::Session() : library(nullptr) {
 }

@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include "Library.hpp"
-#include "Ressources/Resource.hpp"
+#include "../Ressources/Resource.hpp"
 
 class Session {
     private:

@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "User.hpp"
-#include "Ressources/Resource.hpp"
+#include "../Users/User.hpp"
+#include "../Ressources/Resource.hpp"
 
 class FileManager {
     public:
