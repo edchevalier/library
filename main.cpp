@@ -1,10 +1,4 @@
-#include "Ressources/AllResources.hpp"
-#include "User.hpp"
-#include "Client.hpp"
-#include "Admin.hpp"
-#include "Session.hpp"
-#include "FileManager.hpp"
-#include "Library.hpp"
+#include "AllClasses.hpp"
 #include <iostream>
 #include <vector>
 
@@ -13,10 +7,10 @@ int main() {
     FileManager fileManager;
 
     std::cout << "===== Chargement des utilisateurs depuis le fichier =====" << std::endl;
-    std::vector<User*> users = fileManager.loadUsers("utilisateurs.txt");
+    std::vector<User*> users = fileManager.loadUsers("data/utilisateurs.txt");
 
     std::cout << "\n===== Chargement des ressources depuis le fichier =====" << std::endl;
-    std::vector<Resource*> resources = fileManager.loadResources("ressources.txt");
+    std::vector<Resource*> resources = fileManager.loadResources("data/ressources.txt");
 
     std::cout << "\n===== Affichage des utilisateurs chargés =====" << std::endl;
     for (User* user : users) {

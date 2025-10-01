@@ -1,5 +1,5 @@
 #include "User.hpp"
-#include "Ressources/Resource.hpp" 
+#include "../Ressources/Resource.hpp" 
 
 // Constructeurs 
 User::User() : idUser(0), firstName(""), lastName(""), emailAddress("") {}

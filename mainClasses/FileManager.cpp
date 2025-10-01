@@ -1,14 +1,13 @@
 #include "FileManager.hpp"
-#include "Admin.hpp"
-#include "Client.hpp"
-#include "Ressources/Book.hpp"
-#include "Ressources/Video.hpp"
-#include "Ressources/CD.hpp"
-#include "Ressources/DVD.hpp"
-#include "Ressources/VHS.hpp"
-#include "Ressources/Digital.hpp"
-#include "Ressources/Reviews.hpp"
-#include "Ressources/Resource.hpp"
+#include "../Users/Admin.hpp"
+#include "../Users/Client.hpp"
+#include "../Ressources/Book.hpp"
+#include "../Ressources/Video.hpp"
+#include "../Ressources/CD.hpp"
+#include "../Ressources/DVD.hpp"
+#include "../Ressources/VHS.hpp"
+#include "../Ressources/Digital.hpp"
+#include "../Ressources/Reviews.hpp"
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -130,17 +129,14 @@ User* FileManager::parseUser(const std::string& line) {
 
 Resource* FileManager::parseResource(const std::string& line) {
     std::istringstream iss(line);
-    std::string type, idStr, title, author, borrowedByStr;
+    std::string type, idStr, title, author;
 
     if (std::getline(iss, type, '|') &&
         std::getline(iss, idStr, '|') &&
         std::getline(iss, title, '|') &&
-        std::getline(iss, author, '|')&&
-        std::getline(iss, borrowedByStr, '|')) {
-        
+        std::getline(iss, author, '|')) {
 
         int id = std::stoi(idStr);
-        int borrowedBy = std::stoi(borrowedByStr);
 
         if (type == "Book") {
             std::string summary, pagesStr, collection;
@@ -245,48 +241,40 @@ std::string FileManager::resourceToString(const Resource* resource) {
     if (reviews != nullptr) {
         result = "Reviews|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 reviews->getSummary() + "|" + std::to_string(reviews->getPagesNumber()) + "|" +
                 reviews->getCollection() + "|" + reviews->getEditor() + "|" +
                 std::to_string(reviews->getNbArticles());
     } else if (book != nullptr) {
         result = "Book|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" + 
                 book->getSummary() + "|" + std::to_string(book->getPagesNumber()) + "|" +
                 book->getCollection();
     } else if (dvd != nullptr) {
         result = "DVD|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 dvd->getProductionCompany() + "|" + std::to_string(dvd->getDuration()) + "|" +
                 std::to_string(dvd->getChapterNumber());
     } else if (vhs != nullptr) {
         result = "VHS|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 vhs->getProductionCompany() + "|" + std::to_string(vhs->getDuration());
     } else if (video != nullptr) {
         result = "Video|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 video->getProductionCompany() + "|" + std::to_string(video->getDuration());
     } else if (cd != nullptr) {
         result = "CD|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 std::to_string(cd->getDuration()) + "|" + std::to_string(cd->getTracksNumber()) + "|" +
                 cd->getProductionCompany();
     } else if (digital != nullptr) {
         result = "Digital|" + std::to_string(resource->getIdResource()) + "|" +
                 resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()) + "|" +  
                 digital->getType() + "|" + std::to_string(digital->getSize()) + "|" +
                 digital->getPath();
     } else {
         result = "Resource|" + std::to_string(resource->getIdResource()) + "|" +
-                resource->getTitle() + "|" + resource->getAuthor() + "|" +
-                std::to_string(resource->getBorrowedBy()); 
+                resource->getTitle() + "|" + resource->getAuthor();
     }
 
     return result;

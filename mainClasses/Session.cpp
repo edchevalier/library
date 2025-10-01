@@ -1,15 +1,15 @@
 #include "Session.hpp"
 #include <iostream>
 #include <algorithm>
-#include "User.hpp"
-#include "Admin.hpp"
-#include "Client.hpp"
-#include "Ressources/Book.hpp"
-#include "Ressources/Reviews.hpp"
-#include "Ressources/CD.hpp"
-#include "Ressources/DVD.hpp"
-#include "Ressources/VHS.hpp"
-#include "Ressources/Digital.hpp"
+#include "../Users/User.hpp"
+#include "../Users/Admin.hpp"
+#include "../Users/Client.hpp"
+#include "../Ressources/Book.hpp"
+#include "../Ressources/Reviews.hpp"
+#include "../Ressources/CD.hpp"
+#include "../Ressources/DVD.hpp"
+#include "../Ressources/VHS.hpp"
+#include "../Ressources/Digital.hpp"
 
 Session::Session() : library(nullptr) {
 }
@@ -149,7 +149,8 @@ bool Session::runUserMenu() {
     std::cout << "4. Afficher les résultats actuels" << std::endl;
     std::cout << "5. Emprunter une ressource" << std::endl;
     std::cout << "6. Rendre une ressource" << std::endl;
-    std::cout << "7. Quitter" << std::endl;
+    std::cout << "7. Afficher toutes les ressources" << std::endl;
+    std::cout << "8. Quitter" << std::endl;
 
 
     std::string command = readCommand();
@@ -184,14 +185,14 @@ bool Session::runUserMenu() {
     }
     else if (command == "5") {
         borrowResourceMenu();
-        return false;
     }
     else if (command == "6") {
         returnResourceMenu();
-        return false;
     }
-
     else if (command == "7") {
+        library->showAllResources();
+    }
+    else if (command == "8") {
         bye();
         return false;
     }
