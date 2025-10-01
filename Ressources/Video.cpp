@@ -22,6 +22,7 @@ void Video::printDetails() const {
               << " | Author : " << author
               << " | ID : " << idResource
               << " | Production Company : " << productionCompany
-              << " | Duration : " << duration << " min"
-              << std::endl;
+              << " | Duration : " << duration << " min";
+              borrowStatus();
+                std::cout  << std::endl;
 }

@@ -25,6 +25,7 @@ void CD::printDetails() const {
               << " | ID : " << idResource
               << " | Duration : " << duration
               << " | Tracks Number : " << tracksNumber
-              << " | Production Company : " << productionCompany
-              << std::endl;
+              << " | Production Company : " << productionCompany;
+              borrowStatus();
+                std::cout  << std::endl;
 }

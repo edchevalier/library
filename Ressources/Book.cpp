@@ -25,6 +25,7 @@ void Book::printDetails() const {
               << " | ID : " << idResource
               << " | Summary : " << summary
               << " | Pages : " << pagesNumber
-              << " | Collection : " << collection
-              << std::endl;
+              << " | Collection : " << collection;
+              borrowStatus(); 
+              std::cout << std::endl;
 }

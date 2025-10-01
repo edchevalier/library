@@ -25,6 +25,7 @@ void Digital::printDetails() const {
               << " | ID : " << idResource
               << " | Type : " << type
               << " | Size : " << size
-              << " | Path : " << path
-              << std::endl;
+              << " | Path : " << path;
+              borrowStatus();
+                std::cout  << std::endl;
 }

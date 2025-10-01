@@ -1,7 +1,7 @@
 #include "Resource.hpp"
 
 // ---------- Constructeurs ----------
-Resource::Resource() : idResource(0), title(""), author("") {};
+Resource::Resource() : idResource(0), title(""), author(""), borrowedBy(0){};
 
 Resource::Resource(int id, const std::string& t, const std::string& a, int b){
     idResource = id;
@@ -30,13 +30,24 @@ void Resource::printDetails() const {
     if (isAvailable()) {
         std::cout << " | Status : Disponible";
     } else {
-        std::cout << " | Status : Emprunté par utilisateur " << borrowedBy;
+        std::cout << " | Status : Emprunté par un utilisateur ";
     }
      std::cout  << std::endl;;
 }
 
+
+
+
 bool Resource::isAvailable() const {
     return borrowedBy == 0;
+}
+
+void Resource::borrowStatus() const {
+    if (isAvailable()) {
+        std::cout << " | Statut : Disponible";
+    } else {
+        std::cout << " | Statut : Emprunté par un utilisateur ";
+    }
 }
 
 bool Resource::borrowResource(int userId) {

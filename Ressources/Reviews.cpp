@@ -30,6 +30,7 @@ void Reviews::printDetails() const {
               << " | Collection : " << getCollection()
               << " | Summary : " << getSummary()
               << " | Editor : " << editor
-              << " | Articles : " << nbArticles
-              << std::endl;
+              << " | Articles : " << nbArticles;
+              borrowStatus();
+                std::cout  << std::endl;
 }

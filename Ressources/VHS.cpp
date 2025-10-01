@@ -16,6 +16,7 @@ void VHS::printDetails() const {
               << " | Author : " << author
               << " | ID : " << idResource
               << " | Duration : " << duration << " mins"
-              << " | Production Company : " << productionCompany
-              << std::endl;
+              << " | Production Company : " << productionCompany;
+              borrowStatus();
+                std::cout  << std::endl;
 }

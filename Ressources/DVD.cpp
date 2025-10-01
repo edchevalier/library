@@ -20,6 +20,7 @@ void DVD::printDetails() const {
               << " | ID : " << idResource
               << " | Duration : " << duration << " mins"
               << " | Production Company : " << productionCompany
-              << " | Chapters : " << chapterNumber
-              << std::endl;
+              << " | Chapters : " << chapterNumber;
+              borrowStatus();
+                std::cout  << std::endl;
 }

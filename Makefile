@@ -10,12 +10,12 @@ SRCS = $(wildcard $(SRC_DIR)/*.cpp) $(wildcard $(RES_DIR)/*.cpp)
 OBJS = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(filter $(SRC_DIR)/%.cpp,$(SRCS))) \
 	$(patsubst $(RES_DIR)/%.cpp,$(OBJ_DIR)/Ressources/%.o,$(filter $(RES_DIR)/*.cpp,$(SRCS)))
 
-TARGET = mon_programme
+TARGET = app
 
 all: $(OBJ_DIR) $(TARGET)
 
 $(OBJ_DIR):
-	mkdir -p $(OBJ_DIR)
+	mkdir -p $(OBJ_DIR)/Ressources
 
 # Compile main sources
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp

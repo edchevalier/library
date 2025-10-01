@@ -28,6 +28,7 @@ class Resource {
         int getIdResource() const;
         int getBorrowedBy() const;
 
+        void borrowStatus() const;
         bool isAvailable() const;
         bool borrowResource(int userId);
         bool returnResource(int userId);
