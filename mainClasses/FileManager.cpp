@@ -129,14 +129,16 @@ User* FileManager::parseUser(const std::string& line) {
 
 Resource* FileManager::parseResource(const std::string& line) {
     std::istringstream iss(line);
-    std::string type, idStr, title, author;
+    std::string type, idStr, title, author, borrowedStr;
 
     if (std::getline(iss, type, '|') &&
         std::getline(iss, idStr, '|') &&
         std::getline(iss, title, '|') &&
-        std::getline(iss, author, '|')) {
+        std::getline(iss, author, '|') &&
+        std::getline(iss, borrowedStr, '|')) {
 
         int id = std::stoi(idStr);
+        int borrowedBy = std::stoi(borrowedStr);
 
         if (type == "Book") {
             std::string summary, pagesStr, collection;
